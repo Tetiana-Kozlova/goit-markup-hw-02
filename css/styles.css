@@ -5,6 +5,7 @@
 
   /* text colors */
   --main-txt-cl: #212121;
+  --secondary-txt-cl: #757575;
   --light-txt-cl: #ffffff;
   --accent-txt-cl: #2196f3;
 
@@ -130,7 +131,7 @@ body {
 
 /* Feature section */
 
-.feature-list {
+.feature-subtitle {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -139,11 +140,10 @@ body {
   color: var(--main-txt-cl);
 }
 .feature-item {
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-txt-cl);
 }
 
 /* Work section */
@@ -194,11 +194,10 @@ body {
   color: var(--main-txt-cl);
 }
 .project-desc {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-txt-cl);
 }
 
 /* Footer section */
@@ -206,7 +205,8 @@ body {
   background-color: var(--dark-bg-cl);
 }
 .address-link {
-  font-weight: 400;
+  font-family: 'Roboto';
+  font-style: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -214,7 +214,8 @@ body {
 }
 .footer-mail,
 .footer-phone {
-  font-weight: 400;
+  font-family: 'Roboto';
+  font-style: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
