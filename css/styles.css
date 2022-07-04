@@ -33,11 +33,8 @@ body {
 /* Basic styles */
 
 .btn {
-  font-family: inherit;
-  font-weight: 700;
+  font-family: var(--main-font);
   font-size: 16px;
-  line-height: calc(30 / 16);
-  letter-spacing: 0.06em;
   cursor: pointer;
   background-color: transparent;
 }
@@ -51,21 +48,18 @@ body {
 .btn-mode-blue {
   background-color: var(--accent-txt-cl);
   color: var(--light-txt-cl);
+  font-weight: 700;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
 }
 
 .btn-mode-grey {
-  font-family: 'Roboto';
-  font-style: normal;
+  background-color: var(--light-bg-cl);
+  color: var(--main-txt-cl);
   font-weight: 500;
-  font-size: 16px;
   line-height: calc(26 / 16);
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
-}
-
-.filter-item {
-  zzzz
 }
 
 /* Header section */
