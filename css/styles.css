@@ -27,10 +27,18 @@ body {
   color: currentColor;
 }
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
 /* Basic styles */
+
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 .btn {
   font-family: var(--main-font);
@@ -120,14 +128,17 @@ body {
 
 /* Hero section */
 .hero {
+  text-align: center;
   background-color: var(--dark-bg-cl);
 }
 
 .main-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
-  text-align: center;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--light-txt-cl);
@@ -159,6 +170,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-txt-cl);
+  text-align: center;
 }
 /* Team section */
 
@@ -166,8 +178,8 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--main-txt-cl);
 }
 
